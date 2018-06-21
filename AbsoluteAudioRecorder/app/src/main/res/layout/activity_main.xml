@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100sp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textSize="10pt"
+            android:minHeight="20pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="摇晃监听器" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:textSize="10pt"
+            android:minHeight="20pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话监听器" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:minHeight="20pt"
+            android:text="未启动"/>
+
+        <Button
+            android:id="@+id/bn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始监听" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
